@@ -1,5 +1,6 @@
 <html>
   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
@@ -9,50 +10,71 @@
         <li class="nav-item"><a href="#">Início</a></li>
         <li class="nav-item"><a href="#">Serviços</a></li>
         <li class="nav-item"><a href="#">Contato</a></li>
-        <li class="nav-item"><a href="#">Login</a></li>
+        <li class="nav-item red-button"><a href="#"><span>Login</span></a></li  >
       </ul>
     </nav>
-    <header>
-      <picture>
-        <source srcset="assets/video_call.png" media="(min-width: 600px)">
-        <img src="assets/video_call.png" alt="Minimalist illustration containing a open laptop with a videocall ongoing"/>
-      </picture>
-      <b>Alavanque seu negócio com um
-      <h1>Website incrível</h1></b>
-      <a href="#"><span>Solicitar orçamento</span></a>
-    </header>
-    <main>
-      <ul>
-        <li>Domínio personalizado</li>
-        <li>Hospedagem</li>
-        <li>Site responsivo</li>
-        <li>Redes sociais</li>
-        <li>Chat online</li>
-        <li>Blog integrado</li>
-      </ul>
-      <label for="telephone">Nossa equipe está à disposição!</label>
-      <input type="tel" name="telephone" placeholder="Celular">
-      <a href="#"><span>Ligamos pra você</button></a>
-      <section>
-        Já tive experiências com outras 4 empresas da área e a Codar é sem sombra de dúvidas superior em todos os aspectos.
-        Pedro Ferreira Construtora Minari
-      </section>
-      <section>
-        Processos bem simples e criação de um site exatamente como a minha escola queria!
-        Maria Rita Escola Criança Feliz
-      </section>
+    <main class="center-container">
+      <main class="container">
+        <header class="flex-box-center-section">
+          <span class="box-section">
+            <picture>
+              <source srcset="assets/video_call.png" media="(min-width: 600px)">
+              <img class="illustration" src="assets/video_call.png" alt="Minimalist illustration containing a open laptop with a videocall ongoing"/>
+            </picture>
+          </span>
+          <span class="box-section">
+            <b>Alavanque seu negócio com um
+            <h1 class="red">Website incrível</h1></b>
+            <a href="#"><span class="red-button"><span>Solicitar orçamento</span></span></a>
+          </span>
+        </header>
+
+        <section class="flex-box-center-section">
+          <div class="flex-col w-100">
+            <ul>
+              <li><i class="fa fa-check-circle check-circle"></i>Domínio personalizado</li>
+              <li><i class="fa fa-check-circle check-circle"></i>Hospedagem</li>
+              <li><i class="fa fa-check-circle check-circle"></i>Site responsivo</li>
+              <li><i class="fa fa-check-circle check-circle"></i>Redes sociais</li>
+              <li><i class="fa fa-check-circle check-circle"></i>Chat online</li>
+              <li><i class="fa fa-check-circle check-circle"></i>Blog integrado</li>
+            </ul>
+            <div class="flex-col w-100 mt-3">
+              <label for="phone"><b>Nossa equipe está à disposição!</b></label>
+              <div class="flex-box">
+                <input class="gray-input" placeholder="Celular" type="tel" name="phone">
+                <a href="#"><span class="red-button">Ligamos para você!</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="flex-box w-100">
+            <picture>
+              <source srcset="assets/coding_.png" media="(min-width: 600px)">
+              <img class="illustration" src="assets/coding_.png" alt="Minimalist illustration containing a open laptop with a videocall ongoing"/>
+            </picture>
+          </div>
+        </section>
+        <footer>
+          <section>
+            Já tive experiências com outras 4 empresas da área e a Codar é sem sombra de dúvidas superior em todos os aspectos.
+            Pedro Ferreira Construtora Minari
+          </section>
+          <section>
+            Processos bem simples e criação de um site exatamente como a minha escola queria!
+            Maria Rita Escola Criança Feliz
+          </section>
+          Codar.
+          Criamos websites incríveis
+          Sobre
+          Amamos criar soluções
+          e entregar sites incríveis
+          Contato
+          123 Av. Manjar - Nárnia
+          +55 96 2321-3131
+          contato@codar.com
+          Redes sociais
+        </footer>
+      </main>
     </main>
-    <footer>
-      Codar.
-      Criamos websites incríveis
-      Sobre
-      Amamos criar soluções
-      e entregar sites incríveis
-      Contato
-      123 Av. Manjar - Nárnia
-      +55 96 2321-3131
-      contato@codar.com
-      Redes sociais
-    </footer>
   </body>
 </html>

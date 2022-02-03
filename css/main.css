@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+.flex-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  background-color: whitesmoke;
+}
+
+.nav-list-item {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  list-style-type: none;
+  margin: 0;
+}
+
+.nav-logotype {
+  font-size: xx-large;
+}
+.nav-item {
+  width: 100px;
+  height: 100%;
+  background-color: whitesmoke;
+  font-size: x-large;
+  text-align: center;
+}
+
+.red {
+  color: red;
+}
+
+a {
+  color: inherit;
+  text-decoration: initial;
+}
+
+a h1 {
+  margin: 0
+}

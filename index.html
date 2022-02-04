@@ -1,11 +1,16 @@
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
     <nav class="flex-nav">
-      <span class="nav-logotype"><a href="#" ><h1><b class="red">Codar</b>.</h1></a></span>
+      <span class="nav-logotype"><a href="#" ><h1><i class="red">Codar</i>.</h1></a></span>
       <ul class="nav-list-item">
         <li class="nav-item"><a href="#">Início</a></li>
         <li class="nav-item"><a href="#">Serviços</a></li>
@@ -23,9 +28,10 @@
             </picture>
           </span>
           <span class="box-section">
-            <b>Alavanque seu negócio com um
-            <h1 class="red">Website incrível</h1></b>
-            <a href="#"><span class="red-button"><span>Solicitar orçamento</span></span></a>
+            <b class="header-text">Alavanque seu negócio com um
+              <h1 class="red">Website incrível</h1>
+            </b>
+            <a href="#"><span class="red-button"><span><b>Solicitar orçamento</b></span></span></a>
           </span>
         </header>
 
@@ -41,40 +47,70 @@
             </ul>
             <div class="flex-col w-100 mt-3">
               <label for="phone"><b>Nossa equipe está à disposição!</b></label>
-              <div class="flex-box">
+              <div class="flex-box flex-align-center">
                 <input class="gray-input" placeholder="Celular" type="tel" name="phone">
-                <a href="#"><span class="red-button">Ligamos para você!</span></a>
+                <a href="#"><span class="red-button call-text">Ligamos para você!</span></a>
               </div>
             </div>
           </div>
-          <div class="flex-box w-100">
+          <div class="flex-box-center w-100">
             <picture>
               <source srcset="assets/coding_.png" media="(min-width: 600px)">
               <img class="illustration" src="assets/coding_.png" alt="Minimalist illustration containing a open laptop with a videocall ongoing"/>
             </picture>
           </div>
         </section>
-        <footer>
-          <section>
-            Já tive experiências com outras 4 empresas da área e a Codar é sem sombra de dúvidas superior em todos os aspectos.
-            Pedro Ferreira Construtora Minari
+
+        <section class="flex-box-center-section justify-content-between">
+          <section class="flex-box bg-light">
+            <span>
+              <div class="red-circle"></div>
+            </span>
+
+            <div class="flex-col">
+              <p class="ml-text">Já tive experiências com outras 4 empresas da área e a Codar é sem sombra de dúvidas superior em todos os aspectos.</p>
+              <h3 class="ml-text">Ferreira Construtora Minari</h3>
+              <h4 class="ml-text">Construtora Minari</h4>
+            </div>
           </section>
-          <section>
-            Processos bem simples e criação de um site exatamente como a minha escola queria!
-            Maria Rita Escola Criança Feliz
+          <section class="bg-light flex-box">
+            <span>
+              <div class="red-circle"></div>
+            </span>
+
+            <div class="flex-col">
+              <p class="ml-text">Processos bem simples e criação de um site exatamente como a minha escola queria!</p>
+              <h3 class="ml-text">Maria Rita Escola Criança Feliz</h3>
+              <h4 class="ml-text">Escola Criança Feliz</h4>
+            </div>
           </section>
-          Codar.
-          Criamos websites incríveis
-          Sobre
-          Amamos criar soluções
-          e entregar sites incríveis
-          Contato
-          123 Av. Manjar - Nárnia
-          +55 96 2321-3131
-          contato@codar.com
-          Redes sociais
-        </footer>
+        </section>
       </main>
     </main>
+    <footer class="flex-box-center footer">
+      <section class="footer-container">
+        <div class="flex-box">
+          <div class="footer-title"><span class="footer-logotype w-100"><a href="#"><i>Codar.</i></a></span></div>
+          <div class="footer-title"><h2>Sobre</h2></div>
+          <div class="footer-title"><h2>Contato</h2></div>
+          <div class="footer-title"><h2>Redes sociais</h2></div>
+        </div>
+        <div class="flex-box">
+          <div class="flex-col footer-item">
+            <p>Criamos websites incríveis</p>
+          </div>
+          <div class="flex-col footer-item">
+            <p>Amamos criar soluçõese entregar sites incríveis</p>
+          </div>
+          <div class="flex-col footer-item">
+            <p>123 Av. Manjar - Nárnia</p>
+            <p>+55 96 2321-3131</p>
+            <p>contato@codar.com</p>
+          </div>
+          <div class="flex-col footer-item">    
+          </div>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>

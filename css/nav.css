@@ -1,4 +1,6 @@
 .nav-bar {
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,12 +24,11 @@
   color: black;
   padding: 1rem;
   margin: 0 0.75em;
-  /* background-color: tomato; */
 }
 
 .nav-logotype {
   color: #D6000D;
-  font-size: xx-large;
+  font-size: xxx-large;
 }
 
 .nav-logotype i {
@@ -36,26 +37,39 @@
 
 .nav-button {
   color: white;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding: 0.5rem;
+  padding-left: 2em;
+  padding-right: 2em;
   border-radius: 15px;
   background-color: #D6000D;
 }
 
 @media (max-width: 600px) {
   .nav-bar {
+    width: 100%;
     justify-content: center;
     flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
   }
 
-  .nav-menu-item {
-    font-size: large;
-    width: 80px;
-    padding: 0.5rem;
-    text-align: center;
+  .nav-menu {
+    width: 100%;
   }
-  
+
   .nav-button {
     display: none;
+  } 
+
+  .nav-menu-item {
+    padding: 0 5%;
+    margin: 0 0;
+    font-size: large;
+  }
+
+  .nav-logotype {
+    margin: 1rem 0;
+    display: flex;
+    font-size: xx-large;
   }
 }

@@ -31,7 +31,7 @@
   border-radius: 10px;
   text-align: center;
   font-size: x-large;
-  background-color: #D6000D;
+  background-color: var(--codar-red);
   margin-top: 2em;
   text-decoration: none;
 }
@@ -42,7 +42,8 @@
 
 .header-budget-highlighted-text {
   font-size: 64px;
-  color: #D6000D;
+  color: var(--codar-red);
+  word-break: keep-all;
 }
 
 @media (max-width: 600px) {
@@ -74,7 +75,6 @@
   .header-budget-text {
     text-align: center;
     font-size: large;
-    white-space: nowrap;
   }
 
   .header-budget-highlighted-text {

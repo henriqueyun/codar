@@ -1,6 +1,11 @@
 * {
   margin: 0; 
   font-family: 'Roboto', sans-serif;
+  --codar-red: #D6000D
+}
+
+body {
+  padding-bottom: 100px;
 }
 
 .container {

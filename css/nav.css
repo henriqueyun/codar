@@ -27,7 +27,7 @@
 }
 
 .nav-logotype {
-  color: #D6000D;
+  color: var(--codar-red);
   font-size: xxx-large;
 }
 
@@ -41,7 +41,7 @@
   padding-left: 2em;
   padding-right: 2em;
   border-radius: 15px;
-  background-color: #D6000D;
+  background-color: var(--codar-red);
 }
 
 @media (max-width: 600px) {

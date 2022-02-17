@@ -32,7 +32,7 @@
 }
 
 .nav-logotype i {
-  color: #D6000D;
+  color: var(--codar-red);
 }
 
 .nav-button {

@@ -4,7 +4,7 @@
     grid-template-rows: 1fr 1fr 1fr;
 }
 
-.header-section section {
+.header-section div {
     display: grid;
     grid-template-rows: 2;
     grid-row: 2 / 4;
@@ -30,4 +30,39 @@
 .header-highlighted-text {
     color: red;
     font-size: xxx-large;
+}
+
+@media (max-width: 600px) {
+    .header-section {
+        margin-top: 1em;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .header-section div {
+        display: grid;
+        align-content: start;
+        text-align: center;
+        grid-row: 2 / 4;
+        padding-top: 3em;
+    }
+
+
+    .header-section div span {
+        align-self: stretch;
+        margin-top: 3em;
+    }
+
+    .header-section img {
+        width: 200px
+    }
+
+    .header-section picture {
+        width: 200px;
+        grid-row: 1 / 2;
+        margin: 0 auto;
+    }
+
 }

@@ -1,0 +1,33 @@
+.header-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.header-section section {
+    display: grid;
+    grid-template-rows: 2;
+    grid-row: 2 / 4;
+}
+
+.header-section img {
+    max-width: 400px;
+}
+
+.header-section picture {
+    grid-row: 1 / 4;
+}
+
+.header-button {
+    background-color: var(--codar-red);
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    border-radius: 15px;
+    padding: 0.5em 2em;
+}
+
+.header-highlighted-text {
+    color: red;
+    font-size: xxx-large;
+}

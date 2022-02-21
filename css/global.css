@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --codar-red: #D6000D;
+}
+
+.container {
+    max-width: 1000px;    
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 3em auto;
+}
+

@@ -1,0 +1,25 @@
+.know-us-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 20em;
+}
+
+.know-us-section ul {
+  list-style-type: none;
+}
+
+.know-us-section li {
+  display: flex;
+  align-items: center;
+  font-size: large;
+  margin: 0.5em 0;
+}
+
+.know-us-section li span { 
+  color: var(--codar-red);
+  margin-right: 1em;
+}
+.know-us-section img {
+  max-width: 400px;
+}

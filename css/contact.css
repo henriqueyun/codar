@@ -1,0 +1,45 @@
+.contact-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 2em;
+  gap: 10px;
+}
+
+.contact-button {
+  background-color: var(--codar-red);
+  color: white;
+  border-radius: 10px;
+  grid-column: 2 / 3;
+  text-align: center;
+  padding: 0.5em 2em;
+  font-size: large;
+}
+
+.contact-input {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+  font-size: large;
+  background-color: lightgray;
+  border: 0px;
+  border-radius: 10px;
+  padding-left: 1em;
+}
+
+@media (max-width: 600px) {
+  .contact-section {
+    display: grid;
+    grid-template-columns: 0.6fr;
+    justify-content: center;
+  }
+
+  .contact-input {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    padding: 0.5em 1em;
+  }
+
+  .contact-button {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+}

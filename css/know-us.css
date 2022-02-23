@@ -9,6 +9,7 @@
   list-style-type: none;
 }
 
+
 .know-us-section li {
   display: flex;
   align-items: center;
@@ -22,4 +23,27 @@
 }
 .know-us-section img {
   max-width: 400px;
+}
+
+@media (max-width: 600px) {
+  .know-us-section {
+    display: grid;
+    grid-template-columns: 0.75fr;
+    margin-top: 10em;
+    justify-content: center;
+  }
+
+  .know-us-section picture {
+    text-align: center;
+    margin-bottom: 2em;
+    order: 0;
+  }
+  .know-us-section img {
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  .know-us-section ul {
+    order: 1
+  }
 }

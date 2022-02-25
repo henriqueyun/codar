@@ -30,3 +30,20 @@
 .feedback-text h2 {
   font-weight: normal;
 }
+
+@media (max-width: 600px) {
+  .feedback-container {
+    max-width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  .feedback-box {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  .feedback-text {
+    grid-column: 2 / 6;
+    padding: 0 0 0 1em;
+
+  }
+}
